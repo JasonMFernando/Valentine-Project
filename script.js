@@ -1,6 +1,7 @@
 function showMessage() {
     document.getElementById("valentine-text").innerHTML = "Thanks for being my valentine ⸜(｡˃ ᵕ ˂ )⸝♡";
     document.getElementById("love-gif").src = "Images/confirm.gif";
+    document.querySelector(".buttons").style.display = "none";
 }
 function moveNoButton() {
     const noButton = document.getElementById("no");
